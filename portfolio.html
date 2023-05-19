@@ -27,7 +27,7 @@
     <header class="header">
       <div class="container header-flex">
         <nav class="nav">
-          <a href="./index.html" class="logo link"
+          <a href="./index.html" class="logo link logo-header-margin"
             >Web<span class="logo-header">Studio</span></a
           >
           <ul class="list-nav list">
@@ -288,17 +288,17 @@
     </main>
     <footer class="footer">
       <div class="footer-flex container">
-        <div class="footer-design">
-          <a href="./index.html" class="logo link logo-footer-margin"
-            >Web<span class="logo-footer">Studio</span></a
+        <div class="footer-logo-wrapper">
+          <a href="./index.html" class="logo link logo-footer"
+            >Web<span class="logo-footer-color">Studio</span></a
           >
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
         </div>
-        <div class="footer-design">
-          <h2 class="footer-social-text">Social media</h2>
+        <div class="footer-social-wrapper">
+          <p class="footer-social-text">Social media</p>
           <ul class="footer-social-list list">
             <li class="item">
               <a href="" class="footer-social-link">
@@ -329,6 +329,27 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-form-wrapper">
+          <form class="footer-form">
+            <p class="footer-social-text footer-text-margin">Subscribe</p>
+            <div class="footer-input-wrapper">
+              <label class="footer-form-label">
+                <input
+                  name="email"
+                  type="email"
+                  class="footer-form-input"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="footer-button-submit button-pointer">
+                Subscribe
+                <svg class="footer-form-icon-telegram" width="24" height="24">
+                  <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
