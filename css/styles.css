@@ -84,8 +84,6 @@ img {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-
-  outline: 2px solid red;
 }
 
 @media only screen and (min-width: 428px) {
