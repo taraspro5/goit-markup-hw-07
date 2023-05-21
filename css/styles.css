@@ -660,7 +660,6 @@ img {
 
 @media only screen and (min-width: 768px) {
   .footer-flex {
-    justify-content: normal;
     row-gap: 72px;
     column-gap: 24px;
   }
@@ -681,7 +680,6 @@ img {
 @media only screen and (min-width: 768px) {
   .footer-logo-wrapper {
     display: block;
-    margin-left: 108px;
   }
 }
 
@@ -706,12 +704,6 @@ img {
 }
 
 .footer-form-wrapper {
-}
-
-@media only screen and (min-width: 768px) {
-  .footer-form-wrapper {
-    margin-left: 108px;
-  }
 }
 
 @media only screen and (min-width: 1158px) {
