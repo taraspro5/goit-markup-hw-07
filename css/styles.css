@@ -670,9 +670,6 @@ img {
   }
 }
 
-.footer-form-label {
-}
-
 .footer-form-input {
   padding: 8px 16px;
   height: 40px;
@@ -754,9 +751,6 @@ img {
     flex-direction: row;
     gap: 24px;
   }
-}
-
-.footer-form-wrapper {
 }
 
 @media only screen and (min-width: 1158px) {
