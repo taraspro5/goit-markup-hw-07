@@ -163,7 +163,6 @@ img {
   padding-bottom: 112px;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
   max-width: 1440px;
 
   background: var(--second-title-background);
@@ -229,6 +228,13 @@ img {
         ),
         url(../images/hero/people-office-dekstop@2x.jpg);
     }
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 }
 
@@ -444,26 +450,10 @@ img {
 }
 
 .team-list {
-  flex-basis: calc(
-    (100% - var(--indent-vertical) * (var(--items) - 1)) / var(--items)
-  );
-
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-}
-
-@media only screen and (min-width: 768px) {
-  .team-list {
-    --items: 2;
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-  .team-list {
-    --items: 4;
-  }
 }
 
 .team-flex {
@@ -471,6 +461,7 @@ img {
   flex-wrap: wrap;
   row-gap: var(--indent-horizontal);
   column-gap: var(--indent-vertical);
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -712,6 +703,8 @@ img {
   .footer-flex {
     row-gap: 72px;
     column-gap: 24px;
+    width: 556px;
+    justify-content: flex-start;
   }
 }
 
@@ -850,6 +843,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .email-telephone {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
   }
