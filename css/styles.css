@@ -984,7 +984,13 @@ img {
 
 .mobile-socials {
   display: flex;
-  gap: 56px;
+  gap: 24px;
+}
+
+@media only screen and (min-width: 428px) {
+  .mobile-socials {
+    gap: 56px;
+  }
 }
 
 .mobile-contacts {
@@ -998,10 +1004,16 @@ img {
 
 .telephone-big {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+@media only screen and (min-width: 428px) {
+  .telephone-big {
+    font-size: 36px;
+  }
 }
 
 /* Portfolio */
